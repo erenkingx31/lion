@@ -1,0 +1,1375 @@
+local Converted = {
+	["_lion"] = Instance.new("ScreenGui");
+	["_ScreenGui"] = Instance.new("ScreenGui");
+	["_Main"] = Instance.new("Frame");
+	["_top"] = Instance.new("Frame");
+	["_TextLabel"] = Instance.new("TextLabel");
+	["_TextLabel1"] = Instance.new("TextLabel");
+	["_ImageLabel"] = Instance.new("ImageLabel");
+	["_UICorner"] = Instance.new("UICorner");
+	["_LocalScript"] = Instance.new("LocalScript");
+	["_TextLabel2"] = Instance.new("TextLabel");
+	["_LocalScript1"] = Instance.new("LocalScript");
+	["_Discord"] = Instance.new("Frame");
+	["_TextBox"] = Instance.new("TextBox");
+	["_Text1"] = Instance.new("TextLabel");
+	["_Text2"] = Instance.new("TextLabel");
+	["_Text3"] = Instance.new("TextLabel");
+	["_dc"] = Instance.new("TextLabel");
+	["_dc1"] = Instance.new("TextLabel");
+	["_TextButton"] = Instance.new("TextButton");
+	["_LocalScript2"] = Instance.new("LocalScript");
+	["_ImageLabel1"] = Instance.new("ImageLabel");
+	["_UICorner1"] = Instance.new("UICorner");
+	["_TextLabel3"] = Instance.new("TextLabel");
+	["_TextLabel4"] = Instance.new("TextLabel");
+	["_ImageLabel2"] = Instance.new("ImageLabel");
+	["_UICorner2"] = Instance.new("UICorner");
+	["_Others"] = Instance.new("Frame");
+	["_RButton"] = Instance.new("TextButton");
+	["_Script"] = Instance.new("Script");
+	["_Inf"] = Instance.new("TextButton");
+	["_Script1"] = Instance.new("Script");
+	["_Hit"] = Instance.new("TextButton");
+	["_Script2"] = Instance.new("Script");
+	["_Esp"] = Instance.new("TextButton");
+	["_Script3"] = Instance.new("Script");
+	["_CamingSoon"] = Instance.new("TextButton");
+	["_CamingSoon1"] = Instance.new("TextButton");
+	["_CamingSoon2"] = Instance.new("TextButton");
+	["_CamingSoon3"] = Instance.new("TextButton");
+	["_CamingSoon4"] = Instance.new("TextButton");
+	["_CamingSoon5"] = Instance.new("TextButton");
+	["_CamingSoon6"] = Instance.new("TextButton");
+	["_CamingSoon7"] = Instance.new("TextButton");
+	["_Player"] = Instance.new("Frame");
+	["_Speed"] = Instance.new("TextButton");
+	["_LocalScript3"] = Instance.new("LocalScript");
+	["_Speed1"] = Instance.new("TextButton");
+	["_LocalScript4"] = Instance.new("LocalScript");
+	["_jump"] = Instance.new("TextButton");
+	["_LocalScript5"] = Instance.new("LocalScript");
+	["_jump1"] = Instance.new("TextButton");
+	["_LocalScript6"] = Instance.new("LocalScript");
+	["_FlyButton"] = Instance.new("TextButton");
+	["_FlyHandler"] = Instance.new("LocalScript");
+	["_Server"] = Instance.new("Frame");
+	["_Button"] = Instance.new("TextButton");
+	["_LocalScript7"] = Instance.new("LocalScript");
+	["_Button1"] = Instance.new("TextButton");
+	["_LocalScript8"] = Instance.new("LocalScript");
+	["_Button2"] = Instance.new("TextButton");
+	["_LocalScript9"] = Instance.new("LocalScript");
+	["_Button3"] = Instance.new("TextButton");
+	["_LocalScript10"] = Instance.new("LocalScript");
+	["_Button4"] = Instance.new("TextButton");
+	["_LocalScript11"] = Instance.new("LocalScript");
+	["_Button5"] = Instance.new("TextButton");
+	["_LocalScript12"] = Instance.new("LocalScript");
+	["_ScrollingFrame"] = Instance.new("ScrollingFrame");
+	["_DiscordButton"] = Instance.new("TextButton");
+	["_LocalScript13"] = Instance.new("LocalScript");
+	["_ServerButton"] = Instance.new("TextButton");
+	["_LocalScript14"] = Instance.new("LocalScript");
+	["_OyuncuButton"] = Instance.new("TextButton");
+	["_LocalScript15"] = Instance.new("LocalScript");
+	["_ImageLabel3"] = Instance.new("ImageLabel");
+	["_UICorner3"] = Instance.new("UICorner");
+	["_OthersButton"] = Instance.new("TextButton");
+	["_LocalScript16"] = Instance.new("LocalScript");
+	["_TrollMenuButton"] = Instance.new("TextButton");
+	["_Menuyu Hareket Ettirir"] = Instance.new("LocalScript");
+	["_OpenButton"] = Instance.new("TextButton");
+	["_LocalScript17"] = Instance.new("LocalScript");
+	["_UICorner4"] = Instance.new("UICorner");
+	["_ImageLabel4"] = Instance.new("ImageLabel");
+	["_UICorner5"] = Instance.new("UICorner");
+	["_Button Hareket Ettirir"] = Instance.new("LocalScript");
+	["_SendNotification"] = Instance.new("LocalScript");
+}
+
+-- Properties:
+
+Converted["_lion"].ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+Converted["_lion"].Name = "lion"
+Converted["_lion"].Parent = game:GetService("CoreGui")
+
+Converted["_ScreenGui"].ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+Converted["_ScreenGui"].Parent = Converted["_lion"]
+
+Converted["_Main"].BackgroundColor3 = Color3.fromRGB(33.00000183284283, 33.00000183284283, 33.00000183284283)
+Converted["_Main"].BorderColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_Main"].BorderSizePixel = 5
+Converted["_Main"].Position = UDim2.new(0.144667491, 0, 0.221795842, 0)
+Converted["_Main"].Size = UDim2.new(0, 584, 0, 336)
+Converted["_Main"].Name = "Main"
+Converted["_Main"].Parent = Converted["_ScreenGui"]
+
+Converted["_top"].BackgroundColor3 = Color3.fromRGB(33.00000183284283, 33.00000183284283, 33.00000183284283)
+Converted["_top"].BorderColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_top"].BorderSizePixel = 5
+Converted["_top"].Position = UDim2.new(0.0308530107, 0, 0.0382953808, 0)
+Converted["_top"].Size = UDim2.new(0, 100, 0, 309)
+Converted["_top"].Name = "top"
+Converted["_top"].Parent = Converted["_Main"]
+
+Converted["_TextLabel"].Font = Enum.Font.Unknown
+Converted["_TextLabel"].Text = "Lion Hub"
+Converted["_TextLabel"].TextColor3 = Color3.fromRGB(255, 255, 255)
+Converted["_TextLabel"].TextScaled = true
+Converted["_TextLabel"].TextSize = 14
+Converted["_TextLabel"].TextWrapped = true
+Converted["_TextLabel"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Converted["_TextLabel"].BackgroundTransparency = 1
+Converted["_TextLabel"].BorderColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_TextLabel"].BorderSizePixel = 0
+Converted["_TextLabel"].Position = UDim2.new(0.470890403, 0, 0.0357142873, 0)
+Converted["_TextLabel"].Size = UDim2.new(0, 152, 0, 27)
+Converted["_TextLabel"].Parent = Converted["_Main"]
+
+Converted["_TextLabel1"].Font = Enum.Font.SourceSansBold
+Converted["_TextLabel1"].Text = ""
+Converted["_TextLabel1"].TextColor3 = Color3.fromRGB(255, 255, 255)
+Converted["_TextLabel1"].TextScaled = true
+Converted["_TextLabel1"].TextSize = 14
+Converted["_TextLabel1"].TextWrapped = true
+Converted["_TextLabel1"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Converted["_TextLabel1"].BackgroundTransparency = 1
+Converted["_TextLabel1"].BorderColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_TextLabel1"].BorderSizePixel = 0
+Converted["_TextLabel1"].Position = UDim2.new(0.479452044, 0, 0.0357142873, 0)
+Converted["_TextLabel1"].Size = UDim2.new(0, 204, 0, 27)
+Converted["_TextLabel1"].Parent = Converted["_Main"]
+
+Converted["_ImageLabel"].Image = "rbxasset://textures/ui/GuiImagePlaceholder.png"
+Converted["_ImageLabel"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Converted["_ImageLabel"].BackgroundTransparency = 1
+Converted["_ImageLabel"].Position = UDim2.new(0.223586932, 0, 0.763025105, 0)
+Converted["_ImageLabel"].Size = UDim2.new(0, 68, 0, 67)
+Converted["_ImageLabel"].Parent = Converted["_Main"]
+
+Converted["_UICorner"].CornerRadius = UDim.new(1, 0)
+Converted["_UICorner"].Parent = Converted["_ImageLabel"]
+
+Converted["_TextLabel2"].Font = Enum.Font.SourceSansBold
+Converted["_TextLabel2"].Text = "PlayerName"
+Converted["_TextLabel2"].TextColor3 = Color3.fromRGB(255, 255, 255)
+Converted["_TextLabel2"].TextScaled = true
+Converted["_TextLabel2"].TextSize = 14
+Converted["_TextLabel2"].TextWrapped = true
+Converted["_TextLabel2"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Converted["_TextLabel2"].BackgroundTransparency = 1
+Converted["_TextLabel2"].Position = UDim2.new(0.364527464, 0, 0.806881487, 0)
+Converted["_TextLabel2"].Size = UDim2.new(0, 157, 0, 36)
+Converted["_TextLabel2"].Parent = Converted["_Main"]
+
+Converted["_Discord"].BackgroundColor3 = Color3.fromRGB(33.00000183284283, 33.00000183284283, 33.00000183284283)
+Converted["_Discord"].BorderColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_Discord"].BorderSizePixel = 0
+Converted["_Discord"].Position = UDim2.new(0.222404212, 0, 0.162826359, 0)
+Converted["_Discord"].Size = UDim2.new(0, 449, 0, 281)
+Converted["_Discord"].Visible = false
+Converted["_Discord"].Name = "Discord"
+Converted["_Discord"].Parent = Converted["_Main"]
+
+Converted["_TextBox"].ClearTextOnFocus = false
+Converted["_TextBox"].Font = Enum.Font.Ubuntu
+Converted["_TextBox"].PlaceholderColor3 = Color3.fromRGB(255, 255, 255)
+Converted["_TextBox"].Text = "https://discord.gg/cJ7TUuTh8P"
+Converted["_TextBox"].TextColor3 = Color3.fromRGB(255, 255, 255)
+Converted["_TextBox"].TextEditable = false
+Converted["_TextBox"].TextScaled = true
+Converted["_TextBox"].TextSize = 14
+Converted["_TextBox"].TextWrapped = true
+Converted["_TextBox"].BackgroundColor3 = Color3.fromRGB(33.00000183284283, 33.00000183284283, 33.00000183284283)
+Converted["_TextBox"].BorderColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_TextBox"].BorderSizePixel = 5
+Converted["_TextBox"].Position = UDim2.new(0.0384424962, 0, 0.55871886, 0)
+Converted["_TextBox"].Size = UDim2.new(0.905876458, 0, 0.0878566355, 0)
+Converted["_TextBox"].ZIndex = 20
+Converted["_TextBox"].Parent = Converted["_Discord"]
+
+Converted["_Text1"].Font = Enum.Font.SourceSansBold
+Converted["_Text1"].Text = "|"
+Converted["_Text1"].TextColor3 = Color3.fromRGB(255, 255, 255)
+Converted["_Text1"].TextScaled = true
+Converted["_Text1"].TextSize = 14
+Converted["_Text1"].TextWrapped = true
+Converted["_Text1"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Converted["_Text1"].BackgroundTransparency = 1
+Converted["_Text1"].BorderColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_Text1"].BorderSizePixel = 0
+Converted["_Text1"].Position = UDim2.new(0.271910131, 0, 0.0640569404, 0)
+Converted["_Text1"].Size = UDim2.new(0, 200, 0, 50)
+Converted["_Text1"].Name = "Text1"
+Converted["_Text1"].Parent = Converted["_Discord"]
+
+Converted["_Text2"].Font = Enum.Font.SourceSansBold
+Converted["_Text2"].Text = "/"
+Converted["_Text2"].TextColor3 = Color3.fromRGB(255, 255, 255)
+Converted["_Text2"].TextScaled = true
+Converted["_Text2"].TextSize = 14
+Converted["_Text2"].TextWrapped = true
+Converted["_Text2"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Converted["_Text2"].BackgroundTransparency = 1
+Converted["_Text2"].BorderColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_Text2"].BorderSizePixel = 0
+Converted["_Text2"].Position = UDim2.new(0.296888649, 0, 0.135271609, 0)
+Converted["_Text2"].Rotation = 25
+Converted["_Text2"].Size = UDim2.new(0, 200, 0, 36)
+Converted["_Text2"].Name = "Text2"
+Converted["_Text2"].Parent = Converted["_Discord"]
+
+Converted["_Text3"].Font = Enum.Font.SourceSansBold
+Converted["_Text3"].Text = "\"
+Converted["_Text3"].TextColor3 = Color3.fromRGB(255, 255, 255)
+Converted["_Text3"].TextScaled = true
+Converted["_Text3"].TextSize = 14
+Converted["_Text3"].TextWrapped = true
+Converted["_Text3"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Converted["_Text3"].BackgroundTransparency = 1
+Converted["_Text3"].BorderColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_Text3"].BorderSizePixel = 0
+Converted["_Text3"].Position = UDim2.new(0.255262613, 0, 0.13944003, 0)
+Converted["_Text3"].Rotation = -25
+Converted["_Text3"].Size = UDim2.new(0, 193, 0, 33)
+Converted["_Text3"].Name = "Text3"
+Converted["_Text3"].Parent = Converted["_Discord"]
+
+Converted["_dc"].Font = Enum.Font.SourceSansBold
+Converted["_dc"].Text = "GhostHub Discord Server"
+Converted["_dc"].TextColor3 = Color3.fromRGB(255, 255, 255)
+Converted["_dc"].TextScaled = true
+Converted["_dc"].TextSize = 14
+Converted["_dc"].TextWrapped = true
+Converted["_dc"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Converted["_dc"].BackgroundTransparency = 1
+Converted["_dc"].BorderColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_dc"].BorderSizePixel = 0
+Converted["_dc"].Position = UDim2.new(0.0987563133, 0, 0.270462632, 0)
+Converted["_dc"].Size = UDim2.new(0, 366, 0, 58)
+Converted["_dc"].Name = "dc"
+Converted["_dc"].Parent = Converted["_Discord"]
+
+Converted["_dc1"].Font = Enum.Font.SourceSansBold
+Converted["_dc1"].Text = "Infinite Link"
+Converted["_dc1"].TextColor3 = Color3.fromRGB(255, 255, 255)
+Converted["_dc1"].TextScaled = true
+Converted["_dc1"].TextSize = 14
+Converted["_dc1"].TextWrapped = true
+Converted["_dc1"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Converted["_dc1"].BackgroundTransparency = 1
+Converted["_dc1"].BorderColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_dc1"].BorderSizePixel = 0
+Converted["_dc1"].Position = UDim2.new(0.0920747966, 0, 0.729537368, 0)
+Converted["_dc1"].Size = UDim2.new(0, 366, 0, 50)
+Converted["_dc1"].Name = "dc"
+Converted["_dc1"].Parent = Converted["_Discord"]
+
+Converted["_TextButton"].Font = Enum.Font.SourceSansBold
+Converted["_TextButton"].Text = "x"
+Converted["_TextButton"].TextColor3 = Color3.fromRGB(255, 255, 255)
+Converted["_TextButton"].TextScaled = true
+Converted["_TextButton"].TextSize = 14
+Converted["_TextButton"].TextWrapped = true
+Converted["_TextButton"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Converted["_TextButton"].BackgroundTransparency = 1
+Converted["_TextButton"].BorderColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_TextButton"].BorderSizePixel = 0
+Converted["_TextButton"].Position = UDim2.new(0.902397275, 0, 0.020833334, 0)
+Converted["_TextButton"].Size = UDim2.new(0, 57, 0, 32)
+Converted["_TextButton"].Parent = Converted["_Main"]
+
+Converted["_ImageLabel1"].Image = "rbxassetid://16593907907"
+Converted["_ImageLabel1"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Converted["_ImageLabel1"].BackgroundTransparency = 1
+Converted["_ImageLabel1"].BorderColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_ImageLabel1"].BorderSizePixel = 0
+Converted["_ImageLabel1"].Position = UDim2.new(0.0410958901, 0, 0.0535714291, 0)
+Converted["_ImageLabel1"].Size = UDim2.new(0, 87, 0, 80)
+Converted["_ImageLabel1"].Parent = Converted["_Main"]
+
+Converted["_UICorner1"].CornerRadius = UDim.new(1, 0)
+Converted["_UICorner1"].Parent = Converted["_ImageLabel1"]
+
+Converted["_TextLabel3"].Font = Enum.Font.Unknown
+Converted["_TextLabel3"].Text = "The Ghost Hub"
+Converted["_TextLabel3"].TextColor3 = Color3.fromRGB(255, 255, 255)
+Converted["_TextLabel3"].TextScaled = true
+Converted["_TextLabel3"].TextSize = 14
+Converted["_TextLabel3"].TextWrapped = true
+Converted["_TextLabel3"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Converted["_TextLabel3"].BackgroundTransparency = 1
+Converted["_TextLabel3"].BorderColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_TextLabel3"].BorderSizePixel = 0
+Converted["_TextLabel3"].Position = UDim2.new(0.325342476, 0, 0.181547612, 0)
+Converted["_TextLabel3"].Size = UDim2.new(0, 194, 0, 48)
+Converted["_TextLabel3"].Parent = Converted["_Main"]
+
+Converted["_TextLabel4"].Font = Enum.Font.Unknown
+Converted["_TextLabel4"].Text = "1.0 Beta Version"
+Converted["_TextLabel4"].TextColor3 = Color3.fromRGB(255, 255, 255)
+Converted["_TextLabel4"].TextScaled = true
+Converted["_TextLabel4"].TextSize = 14
+Converted["_TextLabel4"].TextWrapped = true
+Converted["_TextLabel4"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Converted["_TextLabel4"].BackgroundTransparency = 1
+Converted["_TextLabel4"].BorderColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_TextLabel4"].BorderSizePixel = 0
+Converted["_TextLabel4"].Position = UDim2.new(0.357876718, 0, 0.291666657, 0)
+Converted["_TextLabel4"].Size = UDim2.new(0, 156, 0, 42)
+Converted["_TextLabel4"].Parent = Converted["_Main"]
+
+Converted["_ImageLabel2"].Image = "rbxassetid://16593907907"
+Converted["_ImageLabel2"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Converted["_ImageLabel2"].BackgroundTransparency = 1
+Converted["_ImageLabel2"].BorderColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_ImageLabel2"].BorderSizePixel = 0
+Converted["_ImageLabel2"].Position = UDim2.new(0.22260274, 0, 0.166666672, 0)
+Converted["_ImageLabel2"].Size = UDim2.new(0, 60, 0, 58)
+Converted["_ImageLabel2"].Parent = Converted["_Main"]
+
+Converted["_UICorner2"].CornerRadius = UDim.new(1, 0)
+Converted["_UICorner2"].Parent = Converted["_ImageLabel2"]
+
+Converted["_Others"].BackgroundColor3 = Color3.fromRGB(33.00000183284283, 33.00000183284283, 33.00000183284283)
+Converted["_Others"].BorderColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_Others"].BorderSizePixel = 0
+Converted["_Others"].Position = UDim2.new(0.222404167, 0, 0.159850165, 0)
+Converted["_Others"].Size = UDim2.new(0, 445, 0, 281)
+Converted["_Others"].Visible = false
+Converted["_Others"].Name = "Others"
+Converted["_Others"].Parent = Converted["_Main"]
+
+Converted["_RButton"].Font = Enum.Font.SourceSansBold
+Converted["_RButton"].Text = "R15 To R6 [Beta]"
+Converted["_RButton"].TextColor3 = Color3.fromRGB(255, 255, 255)
+Converted["_RButton"].TextScaled = true
+Converted["_RButton"].TextSize = 14
+Converted["_RButton"].TextWrapped = true
+Converted["_RButton"].BackgroundColor3 = Color3.fromRGB(33.00000183284283, 33.00000183284283, 33.00000183284283)
+Converted["_RButton"].BorderColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_RButton"].BorderSizePixel = 5
+Converted["_RButton"].Position = UDim2.new(0.0173387844, 0, 0.0518661998, 0)
+Converted["_RButton"].Size = UDim2.new(0, 227, 0, 24)
+Converted["_RButton"].Name = "RButton"
+Converted["_RButton"].Parent = Converted["_Others"]
+
+Converted["_Script"].Parent = Converted["_RButton"]
+
+Converted["_Inf"].Font = Enum.Font.SourceSansBold
+Converted["_Inf"].Text = "İnfinite Yield Buttons [Beta]"
+Converted["_Inf"].TextColor3 = Color3.fromRGB(255, 255, 255)
+Converted["_Inf"].TextScaled = true
+Converted["_Inf"].TextSize = 14
+Converted["_Inf"].TextWrapped = true
+Converted["_Inf"].BackgroundColor3 = Color3.fromRGB(33.00000183284283, 33.00000183284283, 33.00000183284283)
+Converted["_Inf"].BorderColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_Inf"].BorderSizePixel = 5
+Converted["_Inf"].Position = UDim2.new(0.0173387844, 0, 0.194214955, 0)
+Converted["_Inf"].Size = UDim2.new(0, 227, 0, 26)
+Converted["_Inf"].Name = "Inf"
+Converted["_Inf"].Parent = Converted["_Others"]
+
+Converted["_Script1"].Parent = Converted["_Inf"]
+
+Converted["_Hit"].Font = Enum.Font.SourceSansBold
+Converted["_Hit"].Text = "HitBox Script [Beta]"
+Converted["_Hit"].TextColor3 = Color3.fromRGB(255, 255, 255)
+Converted["_Hit"].TextScaled = true
+Converted["_Hit"].TextSize = 14
+Converted["_Hit"].TextWrapped = true
+Converted["_Hit"].BackgroundColor3 = Color3.fromRGB(33.00000183284283, 33.00000183284283, 33.00000183284283)
+Converted["_Hit"].BorderColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_Hit"].BorderSizePixel = 5
+Converted["_Hit"].Position = UDim2.new(0.0173387844, 0, 0.340122432, 0)
+Converted["_Hit"].Size = UDim2.new(0, 227, 0, 24)
+Converted["_Hit"].Name = "Hit"
+Converted["_Hit"].Parent = Converted["_Others"]
+
+Converted["_Script2"].Parent = Converted["_Hit"]
+
+Converted["_Esp"].Font = Enum.Font.SourceSansBold
+Converted["_Esp"].Text = "ESP (Beta)"
+Converted["_Esp"].TextColor3 = Color3.fromRGB(255, 255, 255)
+Converted["_Esp"].TextScaled = true
+Converted["_Esp"].TextSize = 14
+Converted["_Esp"].TextWrapped = true
+Converted["_Esp"].BackgroundColor3 = Color3.fromRGB(33.00000183284283, 33.00000183284283, 33.00000183284283)
+Converted["_Esp"].BorderColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_Esp"].BorderSizePixel = 5
+Converted["_Esp"].Position = UDim2.new(0.0173387844, 0, 0.482471168, 0)
+Converted["_Esp"].Size = UDim2.new(0, 227, 0, 24)
+Converted["_Esp"].Name = "Esp"
+Converted["_Esp"].Parent = Converted["_Others"]
+
+Converted["_Script3"].Parent = Converted["_Esp"]
+
+Converted["_CamingSoon"].Font = Enum.Font.SourceSansBold
+Converted["_CamingSoon"].Text = "CamingSoon"
+Converted["_CamingSoon"].TextColor3 = Color3.fromRGB(255, 255, 255)
+Converted["_CamingSoon"].TextScaled = true
+Converted["_CamingSoon"].TextSize = 14
+Converted["_CamingSoon"].TextWrapped = true
+Converted["_CamingSoon"].BackgroundColor3 = Color3.fromRGB(33.00000183284283, 33.00000183284283, 33.00000183284283)
+Converted["_CamingSoon"].BorderColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_CamingSoon"].BorderSizePixel = 5
+Converted["_CamingSoon"].Position = UDim2.new(0.0150915943, 0, 0.617702484, 0)
+Converted["_CamingSoon"].Size = UDim2.new(0, 228, 0, 24)
+Converted["_CamingSoon"].Name = "CamingSoon"
+Converted["_CamingSoon"].Parent = Converted["_Others"]
+
+Converted["_CamingSoon1"].Font = Enum.Font.SourceSansBold
+Converted["_CamingSoon1"].Text = "CamingSoon"
+Converted["_CamingSoon1"].TextColor3 = Color3.fromRGB(255, 255, 255)
+Converted["_CamingSoon1"].TextScaled = true
+Converted["_CamingSoon1"].TextSize = 14
+Converted["_CamingSoon1"].TextWrapped = true
+Converted["_CamingSoon1"].BackgroundColor3 = Color3.fromRGB(33.00000183284283, 33.00000183284283, 33.00000183284283)
+Converted["_CamingSoon1"].BorderColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_CamingSoon1"].BorderSizePixel = 5
+Converted["_CamingSoon1"].Position = UDim2.new(0.0173387844, 0, 0.770727396, 0)
+Converted["_CamingSoon1"].Size = UDim2.new(0, 228, 0, 24)
+Converted["_CamingSoon1"].Name = "CamingSoon"
+Converted["_CamingSoon1"].Parent = Converted["_Others"]
+
+Converted["_CamingSoon2"].Font = Enum.Font.SourceSansBold
+Converted["_CamingSoon2"].Text = "CamingSoon"
+Converted["_CamingSoon2"].TextColor3 = Color3.fromRGB(255, 255, 255)
+Converted["_CamingSoon2"].TextScaled = true
+Converted["_CamingSoon2"].TextSize = 14
+Converted["_CamingSoon2"].TextWrapped = true
+Converted["_CamingSoon2"].BackgroundColor3 = Color3.fromRGB(33.00000183284283, 33.00000183284283, 33.00000183284283)
+Converted["_CamingSoon2"].BorderColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_CamingSoon2"].BorderSizePixel = 5
+Converted["_CamingSoon2"].Position = UDim2.new(0.570147753, 0, 0.0518661998, 0)
+Converted["_CamingSoon2"].Size = UDim2.new(0, 185, 0, 24)
+Converted["_CamingSoon2"].Name = "CamingSoon"
+Converted["_CamingSoon2"].Parent = Converted["_Others"]
+
+Converted["_CamingSoon3"].Font = Enum.Font.SourceSansBold
+Converted["_CamingSoon3"].Text = "CamingSoon"
+Converted["_CamingSoon3"].TextColor3 = Color3.fromRGB(255, 255, 255)
+Converted["_CamingSoon3"].TextScaled = true
+Converted["_CamingSoon3"].TextSize = 14
+Converted["_CamingSoon3"].TextWrapped = true
+Converted["_CamingSoon3"].BackgroundColor3 = Color3.fromRGB(33.00000183284283, 33.00000183284283, 33.00000183284283)
+Converted["_CamingSoon3"].BorderColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_CamingSoon3"].BorderSizePixel = 5
+Converted["_CamingSoon3"].Position = UDim2.new(0.570147753, 0, 0.20133239, 0)
+Converted["_CamingSoon3"].Size = UDim2.new(0, 185, 0, 24)
+Converted["_CamingSoon3"].Name = "CamingSoon"
+Converted["_CamingSoon3"].Parent = Converted["_Others"]
+
+Converted["_CamingSoon4"].Font = Enum.Font.SourceSansBold
+Converted["_CamingSoon4"].Text = "CamingSoon"
+Converted["_CamingSoon4"].TextColor3 = Color3.fromRGB(255, 255, 255)
+Converted["_CamingSoon4"].TextScaled = true
+Converted["_CamingSoon4"].TextSize = 14
+Converted["_CamingSoon4"].TextWrapped = true
+Converted["_CamingSoon4"].BackgroundColor3 = Color3.fromRGB(33.00000183284283, 33.00000183284283, 33.00000183284283)
+Converted["_CamingSoon4"].BorderColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_CamingSoon4"].BorderSizePixel = 5
+Converted["_CamingSoon4"].Position = UDim2.new(0.570147753, 0, 0.340122432, 0)
+Converted["_CamingSoon4"].Size = UDim2.new(0, 185, 0, 24)
+Converted["_CamingSoon4"].Name = "CamingSoon"
+Converted["_CamingSoon4"].Parent = Converted["_Others"]
+
+Converted["_CamingSoon5"].Font = Enum.Font.SourceSansBold
+Converted["_CamingSoon5"].Text = "CamingSoon"
+Converted["_CamingSoon5"].TextColor3 = Color3.fromRGB(255, 255, 255)
+Converted["_CamingSoon5"].TextScaled = true
+Converted["_CamingSoon5"].TextSize = 14
+Converted["_CamingSoon5"].TextWrapped = true
+Converted["_CamingSoon5"].BackgroundColor3 = Color3.fromRGB(33.00000183284283, 33.00000183284283, 33.00000183284283)
+Converted["_CamingSoon5"].BorderColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_CamingSoon5"].BorderSizePixel = 5
+Converted["_CamingSoon5"].Position = UDim2.new(0.570147753, 0, 0.489588618, 0)
+Converted["_CamingSoon5"].Size = UDim2.new(0, 185, 0, 24)
+Converted["_CamingSoon5"].Name = "CamingSoon"
+Converted["_CamingSoon5"].Parent = Converted["_Others"]
+
+Converted["_CamingSoon6"].Font = Enum.Font.SourceSansBold
+Converted["_CamingSoon6"].Text = "CamingSoon"
+Converted["_CamingSoon6"].TextColor3 = Color3.fromRGB(255, 255, 255)
+Converted["_CamingSoon6"].TextScaled = true
+Converted["_CamingSoon6"].TextSize = 14
+Converted["_CamingSoon6"].TextWrapped = true
+Converted["_CamingSoon6"].BackgroundColor3 = Color3.fromRGB(33.00000183284283, 33.00000183284283, 33.00000183284283)
+Converted["_CamingSoon6"].BorderColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_CamingSoon6"].BorderSizePixel = 5
+Converted["_CamingSoon6"].Position = UDim2.new(0.570147753, 0, 0.621261239, 0)
+Converted["_CamingSoon6"].Size = UDim2.new(0, 185, 0, 24)
+Converted["_CamingSoon6"].Name = "CamingSoon"
+Converted["_CamingSoon6"].Parent = Converted["_Others"]
+
+Converted["_CamingSoon7"].Font = Enum.Font.SourceSansBold
+Converted["_CamingSoon7"].Text = "CamingSoon"
+Converted["_CamingSoon7"].TextColor3 = Color3.fromRGB(255, 255, 255)
+Converted["_CamingSoon7"].TextScaled = true
+Converted["_CamingSoon7"].TextSize = 14
+Converted["_CamingSoon7"].TextWrapped = true
+Converted["_CamingSoon7"].BackgroundColor3 = Color3.fromRGB(33.00000183284283, 33.00000183284283, 33.00000183284283)
+Converted["_CamingSoon7"].BorderColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_CamingSoon7"].BorderSizePixel = 5
+Converted["_CamingSoon7"].Position = UDim2.new(0.570147753, 0, 0.770727396, 0)
+Converted["_CamingSoon7"].Size = UDim2.new(0, 185, 0, 24)
+Converted["_CamingSoon7"].Name = "CamingSoon"
+Converted["_CamingSoon7"].Parent = Converted["_Others"]
+
+Converted["_Player"].BackgroundColor3 = Color3.fromRGB(33.00000183284283, 33.00000183284283, 33.00000183284283)
+Converted["_Player"].BorderColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_Player"].BorderSizePixel = 0
+Converted["_Player"].Position = UDim2.new(0.222404167, 0, 0.159850165, 0)
+Converted["_Player"].Size = UDim2.new(0, 445, 0, 281)
+Converted["_Player"].Visible = false
+Converted["_Player"].Name = "Player"
+Converted["_Player"].Parent = Converted["_Main"]
+
+Converted["_Speed"].Font = Enum.Font.SourceSansBold
+Converted["_Speed"].Text = "Speed 100"
+Converted["_Speed"].TextColor3 = Color3.fromRGB(255, 255, 255)
+Converted["_Speed"].TextScaled = true
+Converted["_Speed"].TextSize = 14
+Converted["_Speed"].TextWrapped = true
+Converted["_Speed"].BackgroundColor3 = Color3.fromRGB(33.00000183284283, 33.00000183284283, 33.00000183284283)
+Converted["_Speed"].BorderColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_Speed"].BorderSizePixel = 5
+Converted["_Speed"].Position = UDim2.new(0.0173387844, 0, 0.0732185096, 0)
+Converted["_Speed"].Size = UDim2.new(0, 431, 0, 24)
+Converted["_Speed"].Name = "Speed"
+Converted["_Speed"].Parent = Converted["_Player"]
+
+Converted["_Speed1"].Font = Enum.Font.SourceSansBold
+Converted["_Speed1"].Text = "Normal Speed"
+Converted["_Speed1"].TextColor3 = Color3.fromRGB(255, 255, 255)
+Converted["_Speed1"].TextScaled = true
+Converted["_Speed1"].TextSize = 14
+Converted["_Speed1"].TextWrapped = true
+Converted["_Speed1"].BackgroundColor3 = Color3.fromRGB(33.00000183284283, 33.00000183284283, 33.00000183284283)
+Converted["_Speed1"].BorderColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_Speed1"].BorderSizePixel = 5
+Converted["_Speed1"].Position = UDim2.new(0.0173387844, 0, 0.244037017, 0)
+Converted["_Speed1"].Size = UDim2.new(0, 431, 0, 24)
+Converted["_Speed1"].Name = "Speed"
+Converted["_Speed1"].Parent = Converted["_Player"]
+
+Converted["_jump"].Font = Enum.Font.SourceSansBold
+Converted["_jump"].Text = "Normal JumpPower"
+Converted["_jump"].TextColor3 = Color3.fromRGB(255, 255, 255)
+Converted["_jump"].TextScaled = true
+Converted["_jump"].TextSize = 14
+Converted["_jump"].TextWrapped = true
+Converted["_jump"].BackgroundColor3 = Color3.fromRGB(33.00000183284283, 33.00000183284283, 33.00000183284283)
+Converted["_jump"].BorderColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_jump"].BorderSizePixel = 5
+Converted["_jump"].Position = UDim2.new(0.0173387844, 0, 0.582115293, 0)
+Converted["_jump"].Size = UDim2.new(0, 431, 0, 24)
+Converted["_jump"].Name = "jump"
+Converted["_jump"].Parent = Converted["_Player"]
+
+Converted["_jump1"].Font = Enum.Font.SourceSansBold
+Converted["_jump1"].Text = "JumpPower 100"
+Converted["_jump1"].TextColor3 = Color3.fromRGB(255, 255, 255)
+Converted["_jump1"].TextScaled = true
+Converted["_jump1"].TextSize = 14
+Converted["_jump1"].TextWrapped = true
+Converted["_jump1"].BackgroundColor3 = Color3.fromRGB(33.00000183284283, 33.00000183284283, 33.00000183284283)
+Converted["_jump1"].BorderColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_jump1"].BorderSizePixel = 5
+Converted["_jump1"].Position = UDim2.new(0.0173387844, 0, 0.411296815, 0)
+Converted["_jump1"].Size = UDim2.new(0, 431, 0, 24)
+Converted["_jump1"].Name = "jump"
+Converted["_jump1"].Parent = Converted["_Player"]
+
+Converted["_FlyButton"].Font = Enum.Font.SourceSansBold
+Converted["_FlyButton"].Text = "Fly"
+Converted["_FlyButton"].TextColor3 = Color3.fromRGB(255, 255, 255)
+Converted["_FlyButton"].TextScaled = true
+Converted["_FlyButton"].TextSize = 14
+Converted["_FlyButton"].TextWrapped = true
+Converted["_FlyButton"].BackgroundColor3 = Color3.fromRGB(33.00000183284283, 33.00000183284283, 33.00000183284283)
+Converted["_FlyButton"].BorderColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_FlyButton"].BorderSizePixel = 5
+Converted["_FlyButton"].Position = UDim2.new(0.0140833482, 0, 0.752026558, 0)
+Converted["_FlyButton"].Size = UDim2.new(0, 431, 0, 48)
+Converted["_FlyButton"].Name = "FlyButton"
+Converted["_FlyButton"].Parent = Converted["_Player"]
+
+Converted["_Server"].BackgroundColor3 = Color3.fromRGB(33.00000183284283, 33.00000183284283, 33.00000183284283)
+Converted["_Server"].BorderColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_Server"].BorderSizePixel = 0
+Converted["_Server"].Position = UDim2.new(0.222404167, 0, 0.162826359, 0)
+Converted["_Server"].Size = UDim2.new(0, 445, 0, 281)
+Converted["_Server"].Visible = false
+Converted["_Server"].Name = "Server"
+Converted["_Server"].Parent = Converted["_Main"]
+
+Converted["_Button"].Font = Enum.Font.SourceSansBold
+Converted["_Button"].Text = "Lag Size = 5"
+Converted["_Button"].TextColor3 = Color3.fromRGB(255, 255, 255)
+Converted["_Button"].TextScaled = true
+Converted["_Button"].TextSize = 14
+Converted["_Button"].TextWrapped = true
+Converted["_Button"].BackgroundColor3 = Color3.fromRGB(33.00000183284283, 33.00000183284283, 33.00000183284283)
+Converted["_Button"].BorderColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_Button"].BorderSizePixel = 5
+Converted["_Button"].Position = UDim2.new(0.060674157, 0, 0.0284697507, 0)
+Converted["_Button"].Size = UDim2.new(0, 391, 0, 26)
+Converted["_Button"].Name = "Button"
+Converted["_Button"].Parent = Converted["_Server"]
+
+Converted["_Button1"].Font = Enum.Font.SourceSansBold
+Converted["_Button1"].Text = "Lag Size = 50"
+Converted["_Button1"].TextColor3 = Color3.fromRGB(255, 255, 255)
+Converted["_Button1"].TextScaled = true
+Converted["_Button1"].TextSize = 14
+Converted["_Button1"].TextWrapped = true
+Converted["_Button1"].BackgroundColor3 = Color3.fromRGB(33.00000183284283, 33.00000183284283, 33.00000183284283)
+Converted["_Button1"].BorderColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_Button1"].BorderSizePixel = 5
+Converted["_Button1"].Position = UDim2.new(0.0561797768, 0, 0.199288249, 0)
+Converted["_Button1"].Size = UDim2.new(0, 391, 0, 26)
+Converted["_Button1"].Name = "Button"
+Converted["_Button1"].Parent = Converted["_Server"]
+
+Converted["_Button2"].Font = Enum.Font.SourceSansBold
+Converted["_Button2"].Text = "Lag Size = 450"
+Converted["_Button2"].TextColor3 = Color3.fromRGB(255, 255, 255)
+Converted["_Button2"].TextScaled = true
+Converted["_Button2"].TextSize = 14
+Converted["_Button2"].TextWrapped = true
+Converted["_Button2"].BackgroundColor3 = Color3.fromRGB(33.00000183284283, 33.00000183284283, 33.00000183284283)
+Converted["_Button2"].BorderColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_Button2"].BorderSizePixel = 5
+Converted["_Button2"].Position = UDim2.new(0.0516853929, 0, 0.537366569, 0)
+Converted["_Button2"].Size = UDim2.new(0, 391, 0, 26)
+Converted["_Button2"].Name = "Button"
+Converted["_Button2"].Parent = Converted["_Server"]
+
+Converted["_Button3"].Font = Enum.Font.SourceSansBold
+Converted["_Button3"].Text = "Lag Size = 150"
+Converted["_Button3"].TextColor3 = Color3.fromRGB(255, 255, 255)
+Converted["_Button3"].TextScaled = true
+Converted["_Button3"].TextSize = 14
+Converted["_Button3"].TextWrapped = true
+Converted["_Button3"].BackgroundColor3 = Color3.fromRGB(33.00000183284283, 33.00000183284283, 33.00000183284283)
+Converted["_Button3"].BorderColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_Button3"].BorderSizePixel = 5
+Converted["_Button3"].Position = UDim2.new(0.0561797768, 0, 0.366548032, 0)
+Converted["_Button3"].Size = UDim2.new(0, 391, 0, 26)
+Converted["_Button3"].Name = "Button"
+Converted["_Button3"].Parent = Converted["_Server"]
+
+Converted["_Button4"].Font = Enum.Font.SourceSansBold
+Converted["_Button4"].Text = "Lag Size = 1000"
+Converted["_Button4"].TextColor3 = Color3.fromRGB(255, 255, 255)
+Converted["_Button4"].TextScaled = true
+Converted["_Button4"].TextSize = 14
+Converted["_Button4"].TextWrapped = true
+Converted["_Button4"].BackgroundColor3 = Color3.fromRGB(33.00000183284283, 33.00000183284283, 33.00000183284283)
+Converted["_Button4"].BorderColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_Button4"].BorderSizePixel = 5
+Converted["_Button4"].Position = UDim2.new(0.0471910127, 0, 0.864768684, 0)
+Converted["_Button4"].Size = UDim2.new(0, 391, 0, 26)
+Converted["_Button4"].Name = "Button"
+Converted["_Button4"].Parent = Converted["_Server"]
+
+Converted["_Button5"].Font = Enum.Font.SourceSansBold
+Converted["_Button5"].Text = "Lag Size = 675"
+Converted["_Button5"].TextColor3 = Color3.fromRGB(255, 255, 255)
+Converted["_Button5"].TextScaled = true
+Converted["_Button5"].TextSize = 14
+Converted["_Button5"].TextWrapped = true
+Converted["_Button5"].BackgroundColor3 = Color3.fromRGB(33.00000183284283, 33.00000183284283, 33.00000183284283)
+Converted["_Button5"].BorderColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_Button5"].BorderSizePixel = 5
+Converted["_Button5"].Position = UDim2.new(0.0516853929, 0, 0.693950176, 0)
+Converted["_Button5"].Size = UDim2.new(0, 391, 0, 26)
+Converted["_Button5"].Name = "Button"
+Converted["_Button5"].Parent = Converted["_Server"]
+
+Converted["_ScrollingFrame"].ScrollBarImageColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_ScrollingFrame"].ScrollBarThickness = 10
+Converted["_ScrollingFrame"].Active = true
+Converted["_ScrollingFrame"].BackgroundColor3 = Color3.fromRGB(33.00000183284283, 33.00000183284283, 33.00000183284283)
+Converted["_ScrollingFrame"].BorderColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_ScrollingFrame"].BorderSizePixel = 0
+Converted["_ScrollingFrame"].Position = UDim2.new(0.0291096419, 0, 0.020833334, 0)
+Converted["_ScrollingFrame"].Size = UDim2.new(0, 100, 0, 309)
+Converted["_ScrollingFrame"].Parent = Converted["_Main"]
+
+Converted["_DiscordButton"].Font = Enum.Font.SourceSansBold
+Converted["_DiscordButton"].Text = "Discord"
+Converted["_DiscordButton"].TextColor3 = Color3.fromRGB(255, 255, 255)
+Converted["_DiscordButton"].TextScaled = true
+Converted["_DiscordButton"].TextSize = 14
+Converted["_DiscordButton"].TextWrapped = true
+Converted["_DiscordButton"].BackgroundColor3 = Color3.fromRGB(33.00000183284283, 33.00000183284283, 33.00000183284283)
+Converted["_DiscordButton"].BorderColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_DiscordButton"].BorderSizePixel = 3
+Converted["_DiscordButton"].Position = UDim2.new(-0.0574658215, 0, 0.356468618, 0)
+Converted["_DiscordButton"].Size = UDim2.new(0, 100, 0, 29)
+Converted["_DiscordButton"].Name = "DiscordButton"
+Converted["_DiscordButton"].Parent = Converted["_ScrollingFrame"]
+
+Converted["_ServerButton"].Font = Enum.Font.SourceSansBold
+Converted["_ServerButton"].Text = "Server Lags"
+Converted["_ServerButton"].TextColor3 = Color3.fromRGB(255, 255, 255)
+Converted["_ServerButton"].TextScaled = true
+Converted["_ServerButton"].TextSize = 14
+Converted["_ServerButton"].TextWrapped = true
+Converted["_ServerButton"].BackgroundColor3 = Color3.fromRGB(33.00000183284283, 33.00000183284283, 33.00000183284283)
+Converted["_ServerButton"].BorderColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_ServerButton"].BorderSizePixel = 3
+Converted["_ServerButton"].Position = UDim2.new(-0.059818726, 0, 0.205137581, 0)
+Converted["_ServerButton"].Size = UDim2.new(0, 92, 0, 29)
+Converted["_ServerButton"].Name = "ServerButton"
+Converted["_ServerButton"].Parent = Converted["_ScrollingFrame"]
+
+Converted["_OyuncuButton"].Font = Enum.Font.SourceSansBold
+Converted["_OyuncuButton"].Text = "Fun Menu"
+Converted["_OyuncuButton"].TextColor3 = Color3.fromRGB(255, 255, 255)
+Converted["_OyuncuButton"].TextScaled = true
+Converted["_OyuncuButton"].TextSize = 14
+Converted["_OyuncuButton"].TextWrapped = true
+Converted["_OyuncuButton"].BackgroundColor3 = Color3.fromRGB(33.00000183284283, 33.00000183284283, 33.00000183284283)
+Converted["_OyuncuButton"].BorderColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_OyuncuButton"].BorderSizePixel = 3
+Converted["_OyuncuButton"].Position = UDim2.new(-0.00746582029, 0, 0.140716508, 0)
+Converted["_OyuncuButton"].Size = UDim2.new(0, 86, 0, 29)
+Converted["_OyuncuButton"].Name = "OyuncuButton"
+Converted["_OyuncuButton"].Parent = Converted["_ScrollingFrame"]
+
+Converted["_ImageLabel3"].Image = "rbxassetid://16593907907"
+Converted["_ImageLabel3"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Converted["_ImageLabel3"].BackgroundTransparency = 1
+Converted["_ImageLabel3"].BorderColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_ImageLabel3"].BorderSizePixel = 0
+Converted["_ImageLabel3"].Position = UDim2.new(0.0510961898, 0, 0.00647249212, 0)
+Converted["_ImageLabel3"].Size = UDim2.new(0, 87, 0, 80)
+Converted["_ImageLabel3"].Parent = Converted["_ScrollingFrame"]
+
+Converted["_UICorner3"].CornerRadius = UDim.new(1, 0)
+Converted["_UICorner3"].Parent = Converted["_ImageLabel3"]
+
+Converted["_OthersButton"].Font = Enum.Font.SourceSansBold
+Converted["_OthersButton"].Text = "Others"
+Converted["_OthersButton"].TextColor3 = Color3.fromRGB(255, 255, 255)
+Converted["_OthersButton"].TextScaled = true
+Converted["_OthersButton"].TextSize = 14
+Converted["_OthersButton"].TextWrapped = true
+Converted["_OthersButton"].BackgroundColor3 = Color3.fromRGB(33.00000183284283, 33.00000183284283, 33.00000183284283)
+Converted["_OthersButton"].BorderColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_OthersButton"].BorderSizePixel = 3
+Converted["_OthersButton"].Position = UDim2.new(-0.0174658205, 0, 0.297797441, 0)
+Converted["_OthersButton"].Size = UDim2.new(0, 100, 0, 29)
+Converted["_OthersButton"].Name = "OthersButton"
+Converted["_OthersButton"].Parent = Converted["_ScrollingFrame"]
+
+Converted["_TrollMenuButton"].Font = Enum.Font.SourceSansBold
+Converted["_TrollMenuButton"].Text = "Caming Soon"
+Converted["_TrollMenuButton"].TextColor3 = Color3.fromRGB(255, 255, 255)
+Converted["_TrollMenuButton"].TextScaled = true
+Converted["_TrollMenuButton"].TextSize = 14
+Converted["_TrollMenuButton"].TextWrapped = true
+Converted["_TrollMenuButton"].BackgroundColor3 = Color3.fromRGB(33.00000183284283, 33.00000183284283, 33.00000183284283)
+Converted["_TrollMenuButton"].BorderColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_TrollMenuButton"].BorderSizePixel = 3
+Converted["_TrollMenuButton"].Position = UDim2.new(-0.0874658227, 0, 0.428191841, 0)
+Converted["_TrollMenuButton"].Size = UDim2.new(0, 100, 0, 29)
+Converted["_TrollMenuButton"].Name = "TrollMenuButton"
+Converted["_TrollMenuButton"].Parent = Converted["_ScrollingFrame"]
+
+Converted["_OpenButton"].Font = Enum.Font.SourceSansBold
+Converted["_OpenButton"].Text = ""
+Converted["_OpenButton"].TextColor3 = Color3.fromRGB(255, 255, 255)
+Converted["_OpenButton"].TextScaled = true
+Converted["_OpenButton"].TextSize = 14
+Converted["_OpenButton"].TextWrapped = true
+Converted["_OpenButton"].BackgroundColor3 = Color3.fromRGB(33.00000183284283, 33.00000183284283, 33.00000183284283)
+Converted["_OpenButton"].BorderColor3 = Color3.fromRGB(170.0000050663948, 0, 0)
+Converted["_OpenButton"].BorderSizePixel = 5
+Converted["_OpenButton"].Position = UDim2.new(0.456625521, 0, 0.0352540128, 0)
+Converted["_OpenButton"].Size = UDim2.new(0, 66, 0, 63)
+Converted["_OpenButton"].Name = "OpenButton"
+Converted["_OpenButton"].Parent = Converted["_ScreenGui"]
+
+Converted["_UICorner4"].CornerRadius = UDim.new(1, 0)
+Converted["_UICorner4"].Parent = Converted["_OpenButton"]
+
+Converted["_ImageLabel4"].Image = "rbxassetid://16593907907"
+Converted["_ImageLabel4"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Converted["_ImageLabel4"].BackgroundTransparency = 1
+Converted["_ImageLabel4"].BorderColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_ImageLabel4"].BorderSizePixel = 0
+Converted["_ImageLabel4"].Position = UDim2.new(-0.0581517071, 0, -0.0761110857, 0)
+Converted["_ImageLabel4"].Size = UDim2.new(0, 73, 0, 71)
+Converted["_ImageLabel4"].Parent = Converted["_OpenButton"]
+
+Converted["_UICorner5"].CornerRadius = UDim.new(1, 0)
+Converted["_UICorner5"].Parent = Converted["_ImageLabel4"]
+
+-- Fake Module Scripts:
+
+local fake_module_scripts = {}
+
+
+-- Fake Local Scripts:
+
+local function NDBMIRS_fake_script() -- Fake Script: StarterGui.lion.ScreenGui.Main.ImageLabel.LocalScript
+    local script = Instance.new("LocalScript")
+    script.Name = "LocalScript"
+    script.Parent = Converted["_ImageLabel"]
+    local req = require
+    local require = function(obj)
+        local fake = fake_module_scripts[obj]
+        if fake then
+            return fake()
+        end
+        return req(obj)
+    end
+
+	local Players = game:getService("Players")
+	local plr = Players.LocalPlayer
+	local userId = plr.UserId
+	local thumbType = Enum.ThumbnailType.HeadShot
+	local thumbSize = Enum.ThumbnailSize.Size420x420
+	local content, isReady = Players:GetUserThumbnailAsync(userId,thumbType,thumbSize)
+	
+	local imageLabel = script.Parent
+	imageLabel.Image = content
+end
+local function SUIIS_fake_script() -- Fake Script: StarterGui.lion.ScreenGui.Main.TextLabel.LocalScript
+    local script = Instance.new("LocalScript")
+    script.Name = "LocalScript"
+    script.Parent = Converted["_TextLabel2"]
+    local req = require
+    local require = function(obj)
+        local fake = fake_module_scripts[obj]
+        if fake then
+            return fake()
+        end
+        return req(obj)
+    end
+
+	local Players = game:GetService("Players")
+	
+	local plr = Players.LocalPlayer
+	
+	script.Parent.Text = plr.Name
+	
+end
+local function HLIOIWI_fake_script() -- Fake Script: StarterGui.lion.ScreenGui.Main.TextButton.LocalScript
+    local script = Instance.new("LocalScript")
+    script.Name = "LocalScript"
+    script.Parent = Converted["_TextButton"]
+    local req = require
+    local require = function(obj)
+        local fake = fake_module_scripts[obj]
+        if fake then
+            return fake()
+        end
+        return req(obj)
+    end
+
+	-- Script for closing a frame when a button is clicked
+	
+	local button = script.Parent  -- Assuming this script is a child of the button
+	local frame = button.Parent  -- Assuming the frame is the parent of the button
+	
+	button.MouseButton1Click:Connect(function()
+		frame.Visible = false
+	end)
+	
+end
+local function OFWRDNQ_fake_script() -- Fake Script: StarterGui.lion.ScreenGui.Main.Player.Speed.LocalScript
+    local script = Instance.new("LocalScript")
+    script.Name = "LocalScript"
+    script.Parent = Converted["_Speed"]
+    local req = require
+    local require = function(obj)
+        local fake = fake_module_scripts[obj]
+        if fake then
+            return fake()
+        end
+        return req(obj)
+    end
+
+	local button = script.Parent
+	
+	local function onClicked()
+		local player = game.Players.LocalPlayer
+		local character = player.Character
+		local humanoid = character:FindFirstChildWhichIsA('Humanoid')
+		
+		
+		if character and humanoid then
+			humanoid.WalkSpeed = 100
+		end
+	end
+	
+	button.MouseButton1Click:Connect(onClicked)
+	
+end
+local function GZNYVV_fake_script() -- Fake Script: StarterGui.lion.ScreenGui.Main.Player.Speed.LocalScript
+    local script = Instance.new("LocalScript")
+    script.Name = "LocalScript"
+    script.Parent = Converted["_Speed1"]
+    local req = require
+    local require = function(obj)
+        local fake = fake_module_scripts[obj]
+        if fake then
+            return fake()
+        end
+        return req(obj)
+    end
+
+	local button = script.Parent
+	
+	local function onClicked()
+		local player = game.Players.LocalPlayer
+		local character = player.Character
+		local humanoid = character:FindFirstChildWhichIsA('Humanoid')
+	
+	
+		if character and humanoid then
+			humanoid.WalkSpeed = 16
+		end
+	end
+	
+	button.MouseButton1Click:Connect(onClicked)
+	
+end
+local function FDWXXLG_fake_script() -- Fake Script: StarterGui.lion.ScreenGui.Main.Player.jump.LocalScript
+    local script = Instance.new("LocalScript")
+    script.Name = "LocalScript"
+    script.Parent = Converted["_jump"]
+    local req = require
+    local require = function(obj)
+        local fake = fake_module_scripts[obj]
+        if fake then
+            return fake()
+        end
+        return req(obj)
+    end
+
+	local button = script.Parent
+	
+	local function onClicked()
+		local player = game.Players.LocalPlayer
+		local character = player.Character
+		local humanoid = character:FindFirstChildWhichIsA('Humanoid')
+	
+	
+		if character and humanoid then
+			humanoid.JumpPower = 50
+		end
+	end
+	
+	button.MouseButton1Click:Connect(onClicked)
+	
+end
+local function GVSLW_fake_script() -- Fake Script: StarterGui.lion.ScreenGui.Main.Player.jump.LocalScript
+    local script = Instance.new("LocalScript")
+    script.Name = "LocalScript"
+    script.Parent = Converted["_jump1"]
+    local req = require
+    local require = function(obj)
+        local fake = fake_module_scripts[obj]
+        if fake then
+            return fake()
+        end
+        return req(obj)
+    end
+
+	local button = script.Parent
+	
+	local function onClicked()
+		local player = game.Players.LocalPlayer
+		local character = player.Character
+		local humanoid = character:FindFirstChildWhichIsA('Humanoid')
+	
+	
+		if character and humanoid then
+			humanoid.JumpPower = 100
+		end
+	end
+	
+	button.MouseButton1Click:Connect(onClicked)
+	
+end
+local function UHBM_fake_script() -- Fake Script: StarterGui.lion.ScreenGui.Main.Player.FlyButton.FlyHandler
+    local script = Instance.new("LocalScript")
+    script.Name = "FlyHandler"
+    script.Parent = Converted["_FlyButton"]
+    local req = require
+    local require = function(obj)
+        local fake = fake_module_scripts[obj]
+        if fake then
+            return fake()
+        end
+        return req(obj)
+    end
+
+	speed = 50 --uçma hızı
+	
+	repeat wait() until game.Players.LocalPlayer.Character
+	--kod._.
+	local button = script.Parent
+	local plr = game.Players.LocalPlayer
+	local char = plr.Character
+	local hum = char:WaitForChild("Humanoid")
+	local Torso = char:WaitForChild("HumanoidRootPart")
+	local Mouse = plr:GetMouse()
+	local toggle = false
+	
+	script.Parent.MouseButton1Click:Connect(function()
+		if script.Parent.MouseButton1Click then
+			if toggle == false then
+				toggle = true
+				local Anim = Instance.new("Animation")
+				Anim.AnimationId = "rbxassetid://0"
+				local PlayAnim = hum:LoadAnimation(Anim)
+				PlayAnim:Play()
+				local BV = Instance.new("BodyVelocity",Torso)
+				BV.MaxForce = Vector3.new(math.huge,math.huge,math.huge)
+				while toggle == true do
+					BV.Velocity = Mouse.Hit.lookVector*speed
+					wait()
+				end
+			end
+			if toggle == true then
+				toggle = false
+				Torso:FindFirstChildOfClass("BodyVelocity"):Destroy()
+				local tracks = hum:GetPlayingAnimationTracks()
+				for i, stoptracks in pairs(tracks) do
+					stoptracks:Stop()
+				end
+				local Anim = Instance.new("Animation")
+				Anim.AnimationId = "rbxassetid://0" 
+				local PlayAnim = hum:LoadAnimation(Anim)
+				PlayAnim:Play()
+			end
+		end
+	end)
+end
+local function CFJGV_fake_script() -- Fake Script: StarterGui.lion.ScreenGui.Main.Server.Button.LocalScript
+    local script = Instance.new("LocalScript")
+    script.Name = "LocalScript"
+    script.Parent = Converted["_Button"]
+    local req = require
+    local require = function(obj)
+        local fake = fake_module_scripts[obj]
+        if fake then
+            return fake()
+        end
+        return req(obj)
+    end
+
+	-- Bu Script Oyuna 1000 Tane Part Oluşturur Ve Lag Olur
+	
+	local button = script.Parent
+	
+	button.MouseButton1Click:Connect(function()
+		for i = 1, 5 do
+			local part = Instance.new('Part')
+			part.Parent = workspace
+		end
+	end)
+	
+end
+local function HPYR_fake_script() -- Fake Script: StarterGui.lion.ScreenGui.Main.Server.Button.LocalScript
+    local script = Instance.new("LocalScript")
+    script.Name = "LocalScript"
+    script.Parent = Converted["_Button1"]
+    local req = require
+    local require = function(obj)
+        local fake = fake_module_scripts[obj]
+        if fake then
+            return fake()
+        end
+        return req(obj)
+    end
+
+	-- Bu Script Oyuna 1000 Tane Part Oluşturur Ve Lag Olur
+	
+	local button = script.Parent
+	
+	button.MouseButton1Click:Connect(function()
+		for i = 1, 50 do
+			local part = Instance.new('Part')
+			part.Parent = workspace
+		end
+	end)
+	
+end
+local function EVKCYSX_fake_script() -- Fake Script: StarterGui.lion.ScreenGui.Main.Server.Button.LocalScript
+    local script = Instance.new("LocalScript")
+    script.Name = "LocalScript"
+    script.Parent = Converted["_Button2"]
+    local req = require
+    local require = function(obj)
+        local fake = fake_module_scripts[obj]
+        if fake then
+            return fake()
+        end
+        return req(obj)
+    end
+
+	-- Bu Script Oyuna 1000 Tane Part Oluşturur Ve Lag Olur
+	
+	local button = script.Parent
+	
+	button.MouseButton1Click:Connect(function()
+		for i = 1, 450 do
+			local part = Instance.new('Part')
+			part.Parent = workspace
+		end
+	end)
+	
+end
+local function LMHEJF_fake_script() -- Fake Script: StarterGui.lion.ScreenGui.Main.Server.Button.LocalScript
+    local script = Instance.new("LocalScript")
+    script.Name = "LocalScript"
+    script.Parent = Converted["_Button3"]
+    local req = require
+    local require = function(obj)
+        local fake = fake_module_scripts[obj]
+        if fake then
+            return fake()
+        end
+        return req(obj)
+    end
+
+	-- Bu Script Oyuna 1000 Tane Part Oluşturur Ve Lag Olur
+	
+	local button = script.Parent
+	
+	button.MouseButton1Click:Connect(function()
+		for i = 1, 150 do
+			local part = Instance.new('Part')
+			part.Parent = workspace
+		end
+	end)
+	
+end
+local function ANBJFV_fake_script() -- Fake Script: StarterGui.lion.ScreenGui.Main.Server.Button.LocalScript
+    local script = Instance.new("LocalScript")
+    script.Name = "LocalScript"
+    script.Parent = Converted["_Button4"]
+    local req = require
+    local require = function(obj)
+        local fake = fake_module_scripts[obj]
+        if fake then
+            return fake()
+        end
+        return req(obj)
+    end
+
+	-- Bu Script Oyuna 1000 Tane Part Oluşturur Ve Lag Olur
+	
+	local button = script.Parent
+	
+	button.MouseButton1Click:Connect(function()
+		for i = 1, 1000 do
+			local part = Instance.new('Part')
+			part.Parent = workspace
+		end
+	end)
+	
+end
+local function MDFTQFV_fake_script() -- Fake Script: StarterGui.lion.ScreenGui.Main.Server.Button.LocalScript
+    local script = Instance.new("LocalScript")
+    script.Name = "LocalScript"
+    script.Parent = Converted["_Button5"]
+    local req = require
+    local require = function(obj)
+        local fake = fake_module_scripts[obj]
+        if fake then
+            return fake()
+        end
+        return req(obj)
+    end
+
+	-- Bu Script Oyuna 1000 Tane Part Oluşturur Ve Lag Olur
+	
+	local button = script.Parent
+	
+	button.MouseButton1Click:Connect(function()
+		for i = 1, 675 do
+			local part = Instance.new('Part')
+			part.Parent = workspace
+		end
+	end)
+	
+end
+local function NVJPC_fake_script() -- Fake Script: StarterGui.lion.ScreenGui.Main.ScrollingFrame.DiscordButton.LocalScript
+    local script = Instance.new("LocalScript")
+    script.Name = "LocalScript"
+    script.Parent = Converted["_DiscordButton"]
+    local req = require
+    local require = function(obj)
+        local fake = fake_module_scripts[obj]
+        if fake then
+            return fake()
+        end
+        return req(obj)
+    end
+
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.Parent.Discord.Visible = not script.Parent.Parent.Discord.Visible
+	end)
+end
+local function KKXCJ_fake_script() -- Fake Script: StarterGui.lion.ScreenGui.Main.ScrollingFrame.ServerButton.LocalScript
+    local script = Instance.new("LocalScript")
+    script.Name = "LocalScript"
+    script.Parent = Converted["_ServerButton"]
+    local req = require
+    local require = function(obj)
+        local fake = fake_module_scripts[obj]
+        if fake then
+            return fake()
+        end
+        return req(obj)
+    end
+
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.Parent.Server.Visible = not script.Parent.Parent.Server.Visible
+	end)
+end
+local function RPMMLXF_fake_script() -- Fake Script: StarterGui.lion.ScreenGui.Main.ScrollingFrame.OyuncuButton.LocalScript
+    local script = Instance.new("LocalScript")
+    script.Name = "LocalScript"
+    script.Parent = Converted["_OyuncuButton"]
+    local req = require
+    local require = function(obj)
+        local fake = fake_module_scripts[obj]
+        if fake then
+            return fake()
+        end
+        return req(obj)
+    end
+
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.Parent.Player.Visible = not script.Parent.Parent.Player.Visible
+	end)
+end
+local function XHXGN_fake_script() -- Fake Script: StarterGui.lion.ScreenGui.Main.ScrollingFrame.OthersButton.LocalScript
+    local script = Instance.new("LocalScript")
+    script.Name = "LocalScript"
+    script.Parent = Converted["_OthersButton"]
+    local req = require
+    local require = function(obj)
+        local fake = fake_module_scripts[obj]
+        if fake then
+            return fake()
+        end
+        return req(obj)
+    end
+
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.Parent.Others.Visible = not script.Parent.Parent.Others.Visible
+	end)
+end
+local function IMUCZJ_fake_script() -- Fake Script: StarterGui.lion.ScreenGui.Menuyu Hareket Ettirir
+    local script = Instance.new("LocalScript")
+    script.Name = "Menuyu Hareket Ettirir"
+    script.Parent = Converted["_ScreenGui"]
+    local req = require
+    local require = function(obj)
+        local fake = fake_module_scripts[obj]
+        if fake then
+            return fake()
+        end
+        return req(obj)
+    end
+
+	frame = script.Parent.Main -- BRUHH
+	frame.Draggable = true
+	frame.Active = true
+	frame.Selectable = true
+end
+local function BOLXL_fake_script() -- Fake Script: StarterGui.lion.ScreenGui.OpenButton.LocalScript
+    local script = Instance.new("LocalScript")
+    script.Name = "LocalScript"
+    script.Parent = Converted["_OpenButton"]
+    local req = require
+    local require = function(obj)
+        local fake = fake_module_scripts[obj]
+        if fake then
+            return fake()
+        end
+        return req(obj)
+    end
+
+	local frame = script.Parent.Parent.Main  --...
+	local open = false
+	
+	script.Parent.MouseButton1Click:Connect(function()
+		if frame.Visible == false then
+			frame.Visible = true
+		end
+	end)
+end
+local function DXDMH_fake_script() -- Fake Script: StarterGui.lion.ScreenGui.Button Hareket Ettirir
+    local script = Instance.new("LocalScript")
+    script.Name = "Button Hareket Ettirir"
+    script.Parent = Converted["_ScreenGui"]
+    local req = require
+    local require = function(obj)
+        local fake = fake_module_scripts[obj]
+        if fake then
+            return fake()
+        end
+        return req(obj)
+    end
+
+	frame = script.Parent.OpenButton -- BRUHH
+	frame.Draggable = true
+	frame.Active = true
+	frame.Selectable = true
+end
+local function YARIBHX_fake_script() -- Fake Script: StarterGui.lion.SendNotification
+    local script = Instance.new("LocalScript")
+    script.Name = "SendNotification"
+    script.Parent = Converted["_lion"]
+    local req = require
+    local require = function(obj)
+        local fake = fake_module_scripts[obj]
+        if fake then
+            return fake()
+        end
+        return req(obj)
+    end
+
+	local StarterGui = game:GetService("StarterGui")
+	StarterGui:SetCore("SendNotification",{
+		Title = "Lion Team",
+		Text = "LionHub 1.0 Running Successfully ENJOY.",
+		Duration = 10
+	})
+end
+
+coroutine.wrap(NDBMIRS_fake_script)()
+coroutine.wrap(SUIIS_fake_script)()
+coroutine.wrap(HLIOIWI_fake_script)()
+coroutine.wrap(OFWRDNQ_fake_script)()
+coroutine.wrap(GZNYVV_fake_script)()
+coroutine.wrap(FDWXXLG_fake_script)()
+coroutine.wrap(GVSLW_fake_script)()
+coroutine.wrap(UHBM_fake_script)()
+coroutine.wrap(CFJGV_fake_script)()
+coroutine.wrap(HPYR_fake_script)()
+coroutine.wrap(EVKCYSX_fake_script)()
+coroutine.wrap(LMHEJF_fake_script)()
+coroutine.wrap(ANBJFV_fake_script)()
+coroutine.wrap(MDFTQFV_fake_script)()
+coroutine.wrap(NVJPC_fake_script)()
+coroutine.wrap(KKXCJ_fake_script)()
+coroutine.wrap(RPMMLXF_fake_script)()
+coroutine.wrap(XHXGN_fake_script)()
+coroutine.wrap(IMUCZJ_fake_script)()
+coroutine.wrap(BOLXL_fake_script)()
+coroutine.wrap(DXDMH_fake_script)()
+coroutine.wrap(YARIBHX_fake_script)()
