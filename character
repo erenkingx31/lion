@@ -1,0 +1,271 @@
+local Converted = {
+	["_ScreenGui"] = Instance.new("ScreenGui");
+	["_Menuyu Hareket Ettirir"] = Instance.new("LocalScript");
+	["_OpenButton"] = Instance.new("TextButton");
+	["_LocalScript"] = Instance.new("LocalScript");
+	["_UICorner"] = Instance.new("UICorner");
+	["_ImageLabel"] = Instance.new("ImageLabel");
+	["_UICorner1"] = Instance.new("UICorner");
+	["_Button Hareket Ettirir"] = Instance.new("LocalScript");
+	["_Main"] = Instance.new("Frame");
+	["_TextLabel"] = Instance.new("TextLabel");
+	["_TextButton"] = Instance.new("TextButton");
+	["_LocalScript1"] = Instance.new("LocalScript");
+	["_TextButton1"] = Instance.new("TextButton");
+	["_Script"] = Instance.new("Script");
+	["_LocalScript2"] = Instance.new("LocalScript");
+	["_TextButton2"] = Instance.new("TextButton");
+	["_Script1"] = Instance.new("Script");
+	["_LocalScript3"] = Instance.new("LocalScript");
+	["_TextLabel1"] = Instance.new("TextLabel");
+}
+
+Converted["_ScreenGui"].ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+Converted["_ScreenGui"].Parent = game.StarterGui.lion
+
+Converted["_OpenButton"].Font = Enum.Font.SourceSansBold
+Converted["_OpenButton"].Text = ""
+Converted["_OpenButton"].TextColor3 = Color3.fromRGB(255, 255, 255)
+Converted["_OpenButton"].TextScaled = true
+Converted["_OpenButton"].TextSize = 14
+Converted["_OpenButton"].TextWrapped = true
+Converted["_OpenButton"].BackgroundColor3 = Color3.fromRGB(33.00000183284283, 33.00000183284283, 33.00000183284283)
+Converted["_OpenButton"].BorderColor3 = Color3.fromRGB(170.0000050663948, 0, 0)
+Converted["_OpenButton"].BorderSizePixel = 5
+Converted["_OpenButton"].Position = UDim2.new(0.456625521, 0, 0.0352540128, 0)
+Converted["_OpenButton"].Size = UDim2.new(0, 66, 0, 63)
+Converted["_OpenButton"].Name = "OpenButton"
+Converted["_OpenButton"].Parent = Converted["_ScreenGui"]
+
+Converted["_UICorner"].CornerRadius = UDim.new(1, 0)
+Converted["_UICorner"].Parent = Converted["_OpenButton"]
+
+Converted["_ImageLabel"].Image = "rbxassetid://16593907907"
+Converted["_ImageLabel"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Converted["_ImageLabel"].BackgroundTransparency = 1
+Converted["_ImageLabel"].BorderColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_ImageLabel"].BorderSizePixel = 0
+Converted["_ImageLabel"].Position = UDim2.new(-0.0581517071, 0, -0.0761110857, 0)
+Converted["_ImageLabel"].Size = UDim2.new(0, 73, 0, 71)
+Converted["_ImageLabel"].Parent = Converted["_OpenButton"]
+
+Converted["_UICorner1"].CornerRadius = UDim.new(1, 0)
+Converted["_UICorner1"].Parent = Converted["_ImageLabel"]
+
+Converted["_Main"].BackgroundColor3 = Color3.fromRGB(33.00000183284283, 33.00000183284283, 33.00000183284283)
+Converted["_Main"].BorderColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_Main"].BorderSizePixel = 5
+Converted["_Main"].Position = UDim2.new(0.068490237, 0, 0.209650084, 0)
+Converted["_Main"].Size = UDim2.new(0, 222, 0, 175)
+Converted["_Main"].Name = "Main"
+Converted["_Main"].Parent = Converted["_ScreenGui"]
+
+Converted["_TextLabel"].Font = Enum.Font.SourceSansBold
+Converted["_TextLabel"].Text = ""
+Converted["_TextLabel"].TextColor3 = Color3.fromRGB(255, 255, 255)
+Converted["_TextLabel"].TextScaled = true
+Converted["_TextLabel"].TextSize = 14
+Converted["_TextLabel"].TextWrapped = true
+Converted["_TextLabel"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Converted["_TextLabel"].BackgroundTransparency = 1
+Converted["_TextLabel"].BorderColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_TextLabel"].BorderSizePixel = 0
+Converted["_TextLabel"].Position = UDim2.new(0.479452044, 0, 0.0357142873, 0)
+Converted["_TextLabel"].Size = UDim2.new(0, 204, 0, 27)
+Converted["_TextLabel"].Parent = Converted["_Main"]
+
+Converted["_TextButton"].Font = Enum.Font.SourceSansBold
+Converted["_TextButton"].Text = "x"
+Converted["_TextButton"].TextColor3 = Color3.fromRGB(255, 255, 255)
+Converted["_TextButton"].TextScaled = true
+Converted["_TextButton"].TextSize = 14
+Converted["_TextButton"].TextWrapped = true
+Converted["_TextButton"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Converted["_TextButton"].BackgroundTransparency = 1
+Converted["_TextButton"].BorderColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_TextButton"].BorderSizePixel = 0
+Converted["_TextButton"].Position = UDim2.new(0.807802677, 0, -0.00202375138, 0)
+Converted["_TextButton"].Size = UDim2.new(0, 57, 0, 32)
+Converted["_TextButton"].Parent = Converted["_Main"]
+
+Converted["_TextButton1"].Font = Enum.Font.SourceSansBold
+Converted["_TextButton1"].RichText = true
+Converted["_TextButton1"].Text = "Remove Legs"
+Converted["_TextButton1"].TextColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_TextButton1"].TextSize = 14
+Converted["_TextButton1"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Converted["_TextButton1"].BorderColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_TextButton1"].BorderSizePixel = 0
+Converted["_TextButton1"].Position = UDim2.new(0.0720720738, 0, 0.22857143, 0)
+Converted["_TextButton1"].Size = UDim2.new(0, 190, 0, 50)
+Converted["_TextButton1"].Parent = Converted["_Main"]
+
+Converted["_Script"].Parent = Converted["_TextButton1"]
+
+Converted["_TextButton2"].Font = Enum.Font.SourceSansBold
+Converted["_TextButton2"].Text = "Remove Arms"
+Converted["_TextButton2"].TextColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_TextButton2"].TextSize = 14
+Converted["_TextButton2"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Converted["_TextButton2"].BorderColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_TextButton2"].BorderSizePixel = 0
+Converted["_TextButton2"].Position = UDim2.new(0.0720720738, 0, 0.577142835, 0)
+Converted["_TextButton2"].Size = UDim2.new(0, 190, 0, 50)
+Converted["_TextButton2"].Parent = Converted["_Main"]
+
+Converted["_Script1"].Parent = Converted["_TextButton2"]
+
+Converted["_TextLabel1"].Font = Enum.Font.SourceSansBold
+Converted["_TextLabel1"].RichText = true
+Converted["_TextLabel1"].Text = "R15 ONLY"
+Converted["_TextLabel1"].TextColor3 = Color3.fromRGB(255, 255, 255)
+Converted["_TextLabel1"].TextSize = 14
+Converted["_TextLabel1"].BackgroundColor3 = Color3.fromRGB(33.00000183284283, 33.00000183284283, 33.00000183284283)
+Converted["_TextLabel1"].BorderColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_TextLabel1"].BorderSizePixel = 0
+Converted["_TextLabel1"].Size = UDim2.new(0, 200, 0, 40)
+Converted["_TextLabel1"].Parent = Converted["_Main"]
+ Fake Module Scripts:
+
+local fake_module_scripts = {}
+
+local function HVWI_fake_script() -- Fake Script: StarterGui.lion.ScreenGui.Menuyu Hareket Ettirir
+    local script = Instance.new("LocalScript")
+    script.Name = "Menuyu Hareket Ettirir"
+    script.Parent = Converted["_ScreenGui"]
+    local req = require
+    local require = function(obj)
+        local fake = fake_module_scripts[obj]
+        if fake then
+            return fake()
+        end
+        return req(obj)
+    end
+
+	frame = script.Parent.Main -- BRUHH
+	frame.Draggable = true
+	frame.Active = true
+	frame.Selectable = true
+end
+local function XOIB_fake_script() -- Fake Script: StarterGui.lion.ScreenGui.OpenButton.LocalScript
+    local script = Instance.new("LocalScript")
+    script.Name = "LocalScript"
+    script.Parent = Converted["_OpenButton"]
+    local req = require
+    local require = function(obj)
+        local fake = fake_module_scripts[obj]
+        if fake then
+            return fake()
+        end
+        return req(obj)
+    end
+
+	local frame = script.Parent.Parent.Main  --...
+	local open = false
+	
+	script.Parent.MouseButton1Click:Connect(function()
+		if frame.Visible == false then
+			frame.Visible = true
+		end
+	end)
+end
+local function UYND_fake_script() -- Fake Script: StarterGui.lion.ScreenGui.Button Hareket Ettirir
+    local script = Instance.new("LocalScript")
+    script.Name = "Button Hareket Ettirir"
+    script.Parent = Converted["_ScreenGui"]
+    local req = require
+    local require = function(obj)
+        local fake = fake_module_scripts[obj]
+        if fake then
+            return fake()
+        end
+        return req(obj)
+    end
+
+	frame = script.Parent.OpenButton -- BRUHH
+	frame.Draggable = true
+	frame.Active = true
+	frame.Selectable = true
+end
+local function QSQJZP_fake_script() -- Fake Script: StarterGui.lion.ScreenGui.Main.TextButton.LocalScript
+    local script = Instance.new("LocalScript")
+    script.Name = "LocalScript"
+    script.Parent = Converted["_TextButton"]
+    local req = require
+    local require = function(obj)
+        local fake = fake_module_scripts[obj]
+        if fake then
+            return fake()
+        end
+        return req(obj)
+    end
+
+	-- Script for closing a frame when a button is clicked
+	
+	local button = script.Parent  -- Assuming this script is a child of the button
+	local frame = button.Parent  -- Assuming the frame is the parent of the button
+	
+	button.MouseButton1Click:Connect(function()
+		frame.Visible = false
+	end)
+	
+end
+local function UDYGC_fake_script() -- Fake Script: StarterGui.lion.ScreenGui.Main.TextButton.LocalScript
+    local script = Instance.new("LocalScript")
+    script.Name = "LocalScript"
+    script.Parent = Converted["_TextButton1"]
+    local req = require
+    local require = function(obj)
+        local fake = fake_module_scripts[obj]
+        if fake then
+            return fake()
+        end
+        return req(obj)
+    end
+
+	leftUpperLeg = character:FindFirstChild("LeftUpperLeg")
+	if leftUpperLeg then leftUpperLeg:Destroy() end
+	leftLowerLeg = character:FindFirstChild("LeftLowerLeg")
+	if leftLowerLeg then leftLowerLeg:Destroy() end
+	leftFoot = character:FindFirstChild("LeftFoot")
+	if leftFoot then leftFoot:Destroy() end
+	rightUpperLeg = character:FindFirstChild("RightUpperLeg")
+	if rightUpperLeg then rightUpperLeg:Destroy() end
+	rightLowerLeg = character:FindFirstChild("RightLowerLeg")
+	if rightLowerLeg then rightLowerLeg:Destroy() end
+	rightFoot = character:FindFirstChild("RightFoot")
+	if rightFoot then rightFoot:Destroy() end
+end
+local function YKUWCMS_fake_script() -- Fake Script: StarterGui.lion.ScreenGui.Main.TextButton.LocalScript
+    local script = Instance.new("LocalScript")
+    script.Name = "LocalScript"
+    script.Parent = Converted["_TextButton2"]
+    local req = require
+    local require = function(obj)
+        local fake = fake_module_scripts[obj]
+        if fake then
+            return fake()
+        end
+        return req(obj)
+    end
+
+	leftUpperArm = character:FindFirstChild("LeftUpperArm")
+	if leftUpperArm then leftUpperArm:Destroy() end
+	leftLowerArm = character:FindFirstChild("LeftLowerArm")
+	if leftLowerArm then leftLowerArm:Destroy() end
+	leftFoot = character:FindFirstChild("LeftFoot")
+	if leftFoot then leftFoot:Destroy() end
+	rightUpperArm = character:FindFirstChild("RightUpperArm")
+	if rightUpperArm then rightUpperArm:Destroy() end
+	rightLowerArm = character:FindFirstChild("RightLowerArm")
+	if rightLowerArm then rightLowerArm:Destroy() end
+	rightFoot = character:FindFirstChild("RightFoot")
+	if rightFoot then rightFoot:Destroy() end
+end
+
+coroutine.wrap(HVWI_fake_script)()
+coroutine.wrap(XOIB_fake_script)()
+coroutine.wrap(UYND_fake_script)()
+coroutine.wrap(QSQJZP_fake_script)()
+coroutine.wrap(UDYGC_fake_script)()
+coroutine.wrap(YKUWCMS_fake_script)()
